@@ -1,0 +1,23 @@
+{
+  "name": "balt-technologies/newrelic-metrics",
+  "authors": [
+    {
+      "name": "Tobias Redmann",
+      "email": "tobias.redmann@balt.de"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Balt\\": [
+        "src/"
+      ]
+    }
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "platform": {
+      "php": "7.3"
+    }
+  },
+  "require": {}
+}
